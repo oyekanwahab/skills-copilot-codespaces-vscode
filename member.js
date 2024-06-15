@@ -1,7 +1,7 @@
 function SkillsMember() {
-  return (
-    <div>
-      <h1>Skills Member</h1>
-    </div>
-  );
+  var member = this;
+  member.skills = [];
+  member.addSkill = function(skill) {
+    member.skills.push(skill);
+  };
 }
