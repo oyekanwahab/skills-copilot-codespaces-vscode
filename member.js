@@ -1,4 +1,4 @@
-function SkillsMember() {
+function skillsMember() {
   var member = this;
   member.skills = [];
   member.addSkill = function(skill) {
