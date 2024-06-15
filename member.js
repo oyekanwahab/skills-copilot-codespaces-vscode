@@ -1,8 +1,7 @@
 function SkillsMember() {
-  const member = {
-    name: "John",
-    age: 30,
-    skills: ["JavaScript", "React", "Node"],
-  };
-  return member;
+  return (
+    <div>
+      <h1>Skills Member</h1>
+    </div>
+  );
 }
